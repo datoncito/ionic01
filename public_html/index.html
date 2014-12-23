@@ -20,58 +20,19 @@
 <html ng-app="inicio">
     <head>
         <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" href="css/ionic.css">
-        <title>Hello World</title>
+     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+        <link rel="stylesheet" href="js/libs/jquery-mobile/jquery.mobile.css">
+        <title>Hello World</title> 
     </head>
-    <body ng-controller="MiCtrl">
-
-
-
-            <div class="pane">
-            <div class="row fondo">
-                <div class="col col-90 padding-bottom centrar">
-                   <img src="img/fondo-nube.jpg">
-                </div>
+    <body>
+        <div data-role="page" id="inicio">
+            <div data-role="header">
+                <h1>Inicio</h1>
             </div>
-            <div class="row">
-                <div class="col-90 centrar">
-                    <h4 class="title">ESto es completamente nice</h4>
-                    <p>Si me esta agradando este frameword de cordova mas ionic, tiene una gran aplicabilidad</p>
-                </div>
-            </div>
-            <div class="row padding-top" >
-                <div class="col col-33 centrar"><a href="pagina2.html" ><img src="img/uno64.png"></a><p>Inicio</p></div>
-                <div class="col col-33 centrar"><img src="img/dos64.png"><p>Clima</p> </div>
-                <div class="col col-33 centrar"><img src="img/tres64.png"><p>Grafica</p> </div>
-            </div>
-
-                <div class="row padding-top">
-                    <div class="col col-90">
-                          <div id="deviceready" class="blink">
-                            <p class="event listening">Connecting to Device</p>
-                            <p class="event received">Device is Ready</p>
-                              <button id="salir" class="button button-full button-positive">
-                                 vete a la verga
-                              </button>
-                          </div>
-                    </div>
-                </div>
-
-                </div>
-            <div class="bar bar-footer bar-energized">
-                <h2 class="title">Campitos-ley</h2>
-            </div>
-
-
-
-
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    <script src="js/ap.js"></script>
+        </div>
+    <script src="js/libs/jquery/jquery.js"></script>
+    <script src="js/libs/jquery-mobile/jquery.mobile.js"></script>
+   
     </body>
 </html>
